@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="WS_Pasajero">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" type="xs:int" />
+        <xs:element minOccurs="0" name="_pasajero" nillable="true" type="xs:anyType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WS_PasajeroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WS_PasajeroResult" nillable="true" type="xs:anyType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WS_Viaje">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" type="xs:int" />
+        <xs:element minOccurs="0" name="_viaje" nillable="true" type="xs:anyType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WS_ViajeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WS_ViajeResult" nillable="true" type="xs:anyType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WS_ServicioAdicional">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" type="xs:int" />
+        <xs:element minOccurs="0" name="_servicio" nillable="true" type="xs:anyType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WS_ServicioAdicionalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WS_ServicioAdicionalResult" nillable="true" type="xs:anyType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WS_Maleta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" type="xs:int" />
+        <xs:element minOccurs="0" name="_maleta" nillable="true" type="xs:anyType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="WS_MaletaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="WS_MaletaResult" nillable="true" type="xs:anyType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
